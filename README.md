@@ -1,10 +1,8 @@
 # CSLab: Implementacja `Time`, `TimePeriod`
 
-* Autor: Krzysztof Molenda
-* Wersja: 0.1 (2017-03-20)
 * Zagadnienia: projektowanie typu danych, typ strukturalny (`struct`), implementacja interfejsów, przeciążanie operatorów, praca na wielu plikach, testowanie funkcjonalności, properties i auto-properties, zapewnianie niezmienniczości (_immutability_) zmiennych.
 
-_UWAGA_: Zadanie ma charakter ćwiczebny. W bibliotekach C# dostępne są gotowe struktury/klasy realizujące (prawdopodobnie lepiej) przedstawione założenia (`DateTime`, `DateTimeOfset`, `TimeSpan`). Jednak realizacja tego zadania pozwala lepiej zrozumieć ich działanie.
+
 
 ## Problem, cel
 
@@ -49,7 +47,3 @@ Zaprogramuj, korzystając z notatek do wykładów, **wzajemnie powiązane ze sob
 Przetestuj poprawność zaprojektowanych struktur tworząc odpowiednie testy jednostkowe.
 
 Wykorzystaj zaprogramowane struktury do realizacji programu typu „zegar” i „stoper”. Mile widziana aplikacja desktopowa (WinForm, WPF, UWP).
-
-## Zadania dodatkowe
-
-1. Zmodyfikuj zaprogramowane struktury tak, aby możliwe było operowanie na milisekundach, czyli tysięcznych częściach sekundy. Taka realizacja może przydać się przy tworzeniu programu typu stoper, gdzie pożądana jest większa dokładność niż na poziomie 1 sekundy.
